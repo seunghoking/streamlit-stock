@@ -9,7 +9,7 @@ st.write('''
 마감 가격과 거래량을 차트로 보여줍니다!
 ''')
 
-name = st.sidebar.selectbox('회사명', ['삼성전자', 'NAVER', '카카오'])
+name = st.sidebar.selectbox('회사명', ['삼성전자', '셀트리온', 'NAVER', '카카오', '대한항공','삼성바이오로직스', 'SK하이닉스'])
 
 week = timedelta(weeks=1)
 start_date = st.sidebar.date_input('Start date', datetime.now() - week)
